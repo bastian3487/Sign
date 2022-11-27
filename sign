@@ -1,0 +1,57 @@
+✔️ Kompatibilität / Compatibility
+
+[DEU]
+Das Plugin ist mit Spigot und Paper ab der Version 1.16.x kompatibel. Die Nutzung der neuesten Minecraft Version wird dennoch empfohlen!
+
+Achtung! Es wird keinen Support für ältere Versionen wie z.B. 1.8 geben. Diese Versionen sind veraltet und ein Patch zur Kompatibilität macht keinen Sinn. Fragt also nicht nach solchen Updates! Update bitte auf neuere Server Versionen!
+
+[ENG]
+The plugin is compatible with Spigot and Paper from version 1.16.x. The use of the latest Minecraft version is still recommended!
+
+Attention! There will be no support for older versions such as 1.8. So don't ask for it! These versions are outdated and a compatibility patch makes no sense. So don't ask for such updates! Please update to newer server versions!
+
+
+Installation
+Download the latest .jar and upload it to your Spigot/Paper plugins/ folder
+(Optional) Configure the plugin with the config file /plugins/RHSignItem/config.yml
+Do one of the following:
+Restart your server.
+Type /sign reload
+Tip: For manual reloads I recommend the plugin PlugmanX.
+
+
+Permissions
+RHSignItem.*
+overrides all other of RHSignItem's permissions
+RHSignItem.sign
+players with this permission are able to sign their items with /sign
+RHSignItem.unsign
+players with this permission are able to remove the signature of their items with /sign delete
+RHSignItem.reload
+players with this permission are able to reload the plugins config with /sign reload
+RHSignItem.lockitem
+players with this permission are able to lock a specific item with /sign lock
+RHSignItem.unlockitem
+players with this permission are able to unlock a specific item with /sign unlock
+RHSignItem.renameitem
+players with this permission are able to rename a specific item with /renameitem
+
+Commands & Aliases
+/sign <text>
+description: Signs the item in the main hand with your custom lore
+aliases: [signieren]
+/sign delete
+description: Removes the signature of an item
+aliases: [del, remove, unsign]
+/sign lock
+description: Locks an item for a signature
+aliases: [lockitem]
+/sign unlock
+description: Unlocks an item for a signature
+aliases: [unlockitem]
+/sign reload
+description: Reloads the config
+aliases: [rel]
+/renameitem
+description: Renames the held item
+aliases: [umbenennen]
